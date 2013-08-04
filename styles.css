@@ -1,0 +1,17 @@
+html, body{height: 100%; width: 100%;}
+
+#gMap{
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 100%;
+	width :70%;
+}
+#sel{
+	position: absolute;
+	left: 5%;
+	top: 30%;
+}
+select{
+	width: 200px;
+}
