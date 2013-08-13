@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<title>PlanMy.Travel</title>
+		<link rel="stylesheet" type="text/css" href="reset.css">
 		<link rel="stylesheet" type="text/css" href="./styles.css">
 		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -23,6 +24,15 @@
 			<option value="November">November</option>
 			<option value="December">December</option>
 		</select>
+	
+	<br><br>
+	<p>Lets stick to places in</p>
+	<select id="input2">
+		<option value="Null">Null</option>
+		<option value="Europe">Europe</option>
+		<option value="Asia">Asia</option>
+		<option value="India">India</option>
+	</select><br>
 	<button id="btn">Submit</button>
 	<p></p>
 </div>
