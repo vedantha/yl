@@ -9,7 +9,7 @@
 		exit();
 	}
 	// else{
-	// 	echo "damn nigga";
+	// 	echo "oh no";
 	// }
 	$mysqli->set_charset("utf8");
 	
